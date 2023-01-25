@@ -1,0 +1,26 @@
+{
+  "name": "xiv-mjigrabplural-node",
+  "version": "1.0.0",
+  "description": "Fetches information from XIV API for MJI data.",
+  "main": "index.js",
+  "scripts": {
+    "test": "eslint index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/thakyz/xiv-mjigrabplural-node.git"
+  },
+  "keywords": [
+    "ffxiv",
+    "mji",
+    "xivapi",
+    "island sanctuary",
+    "fetch"
+  ],
+  "author": "Neko Boi Nick",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/thakyz/xiv-mjigrabplural-node/issues"
+  },
+  "homepage": "https://github.com/thakyz/xiv-mjigrabplural-node#readme"
+}
