@@ -4,7 +4,9 @@
   "description": "Fetches information from XIV API for MJI data.",
   "main": "index.js",
   "scripts": {
-    "test": "eslint index.js"
+    "test": "eslint index.js",
+    "start": "node index.js",
+    "query": "node index.js"
   },
   "repository": {
     "type": "git",
@@ -22,5 +24,13 @@
   "bugs": {
     "url": "https://github.com/thakyz/xiv-mjigrabplural-node/issues"
   },
-  "homepage": "https://github.com/thakyz/xiv-mjigrabplural-node#readme"
+  "homepage": "https://github.com/thakyz/xiv-mjigrabplural-node#readme",
+  "dependencies": {
+    "@xivapi/js": "^0.4.1",
+    "cli-progress": "^3.11.2",
+    "strip-json-comments": "^3.1.1"
+  },
+  "devDependencies": {
+    "eslint": "^8.32.0"
+  }
 }
